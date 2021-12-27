@@ -45,6 +45,7 @@ body {
     padding: 5px;
     color: white;
     font-weight: bold;
+    font-size: 27px;
 }
 
 .banner {
@@ -68,10 +69,11 @@ body {
 
 .section-1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    height: 200vh;
 }
 
 .menu-snippet {
@@ -234,12 +236,67 @@ body {
 .snippet-3 {
     background: rgb(80, 80, 80);
     display: flex; 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 .ms3-row-1 {
     height: 90%;
     width: 30%;
-    background: green;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.mr3-col-1-1 {
+    font-size: 75px;
+    color: white;
+    width: 60%;
+    letter-spacing: 2.5px;
+    height: 70%;
+}
+
+.mr3-col-1-2 {
+    height: 30%;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mr3-col-1-2-2 {
+    font-size: 35px;
+}
+
+.ms3-row-2 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms3-row-3 {
+    width: 30%;
+    height: 45%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ms3-row-3-1 {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-size: 35px;
+    width: 180px;
+}
+
+.ms3-row-3-2 {
+
 }
