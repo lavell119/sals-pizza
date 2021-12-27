@@ -348,4 +348,68 @@ body {
 .section-4 {
     height: 140vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: green;
+}
+
+.section-4-row-1 {
+    background: blue;
+    width: 50%;
+    height: 80%;
+}
+
+.section-4-row-2 {
+    background: pink;
+    width: 50%;
+    height: 80%;
+}
+
+.sec-4-snippet-title {
+    font-size: 35px;
+    padding-bottom: 12px;
+}
+
+.sec-4-snippet-sub-title {
+    font-size: 33px;
+    padding-bottom: 35px;
+}
+
+.sec4-row1-left {
+    background: purple;
+    height: 50%;
+    text-align: center;
+    padding: 0 100px 0 100px;
+}
+
+.sec-4-snippet-text {
+    padding-bottom: 65px;
+}
+
+.sec4-row1-left button {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+.sec4-row2-right {
+    width: 50%;
+    height: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.sec4-row2-left {
+    width: 50%;
+    height: 50%;
+    background: yellow;
 }
