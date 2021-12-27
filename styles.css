@@ -79,10 +79,11 @@ body {
 .menu-snippet {
     height: 58vh;
     width: 900px;
-    background: yellow;
+    background: blue;
     margin-top: 25px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    align-items: center;  
 }
 
 .menu-snippet-1 {
@@ -149,15 +150,17 @@ body {
     
 }
 .menu-snippet-right {
-    background: green;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .msr-row-1 {
     font-size: 27px; 
     font-weight: bold;
     color: white;
-
 }
 
 .msr-row-2 {
@@ -180,7 +183,7 @@ body {
     width: 35%; 
     height: 40%;
     position: relative;
-    left: 400px;
+
 }
 
 .ms2-row-1 {
@@ -214,7 +217,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 0 20px 0 20px;
+    padding: 0 0px 0 20px;
 }
 
 .ms2-row-2-1{
@@ -231,6 +234,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 30%;
+    
 }
 
 .snippet-3 {
@@ -299,4 +304,42 @@ body {
 
 .ms3-row-3-2 {
 
+}
+
+.section-2 {
+    background: yellow;
+    height: 90vh;
+    width: 100%;
+}
+
+.section-3 {
+    background: red;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.section-3-content {
+    height: 60%;
+    width: 35%;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section-3-content button {   
+    border-radius: 10px;
+    padding: 8px;
+    color: black;
+    font-size: 25px;
+    border: none;
 }
