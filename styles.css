@@ -10,6 +10,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
 }
 
@@ -342,4 +343,9 @@ body {
     color: black;
     font-size: 25px;
     border: none;
+}
+
+.section-4 {
+    height: 140vh;
+    width: 100%;
 }
