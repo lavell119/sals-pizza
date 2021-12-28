@@ -63,7 +63,74 @@ body {
     height: 60vh;
     width: 100%;
     background-image: url(images/banner.webp
-    )
+    );
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    background: green;
+    width: 340px;
+    height: 270px;
+    opacity: .7;
+    position: relative;
+    left: 82px;
+    top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.banner-row-1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.banner-row-2{
+    display: flex;
+    padding: 0px;
+    align-items: flex-start;
+}
+
+.banner-row-2-1 {
+    font-size: 140px;
+    font-weight: bold;
+    color: red;
+    padding: 0px;
+    background: yellow;
+    display: inline-block;
+    line-height: .5;
+}
+
+.banner-row-2-2 {
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+    line-height: .55;
+    position: relative;
+    bottom: 7px;
+}
+
+.banner-row-3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.banner-row-3-txt {
+    font-size: 64px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+.banner-line {
+    width: 55%;
+    height: 10px;
+    background: red;
+    margin-top: 13px;
 }
 
 .banner-bottom {
