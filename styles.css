@@ -36,8 +36,18 @@ body {
     align-items: center;
     color: red;    
     width: 70%;
-    font-size: 22px;
-    
+    font-size: 22px;  
+    cursor: pointer;
+
+}
+
+
+.selected {
+    border-top: 5px solid black;
+    position: relative;
+    bottom: 3px;
+    color: black;
+
 }
 
 .order {
@@ -463,11 +473,33 @@ body {
     font-size: 40px;
 }
 
-.section-7 {
+.footer {
     height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: red;
+}
+
+.footer-content {
+    width: 60%;
+    height: 83%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content p {
+    font-size: 18px;
+}
+
+.social {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
 }
