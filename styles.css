@@ -62,14 +62,12 @@ body {
 .banner {
     height: 60vh;
     width: 100%;
-    background-image: url(images/banner.webp
-    );
     display: flex;
     align-items: center;
+    background: purple;
 }
 
 .banner-content {
-    background: green;
     width: 340px;
     height: 270px;
     opacity: .7;
@@ -84,6 +82,7 @@ body {
 .banner-row-1 {
     font-size: 64px;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .banner-row-2{
@@ -97,7 +96,6 @@ body {
     font-weight: bold;
     color: red;
     padding: 0px;
-    background: yellow;
     display: inline-block;
     line-height: .5;
 }
@@ -122,6 +120,13 @@ body {
     font-size: 64px;
     font-style: italic;
     font-weight: bold;
+}
+
+.banner-row-4 {
+    font-size: 26px;
+    color: pink;
+    position: relative;
+    bottom: 17px;
 }
 
 
